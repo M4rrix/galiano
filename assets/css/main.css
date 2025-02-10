@@ -300,6 +300,17 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+	.contact-info a {
+		color: #25d366; /* Verde de WhatsApp */
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	.contact-info a:hover {
+		text-decoration: underline;
+	}
+
 /* Form */
 
 	form {
