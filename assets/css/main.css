@@ -234,7 +234,7 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1em;
 			line-height: 1.5;
 		}
 
@@ -1169,7 +1169,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/backgroundimg.jpg");
+			background-image: url("../../images/backgroundimg.jpeg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1400,6 +1400,10 @@ input, select, textarea {
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
+		}
+
+		.span-dr {
+			font-size: 25px;
 		}
 
 		body.is-article-visible #header {
