@@ -1,0 +1,102 @@
+{
+    "es": {
+      "language_label": "🌍 Selecciona un idioma:",
+      "name": "Jose Galiano",
+      "presentation": "Breve presentación. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam. Id rerum ipsam quo. Quas, laboriosam! Nostrum ipsum quibusdam iusto corporis asperiores.",
+      "bio": "Biografía",
+      "zygoma": "Zygomatic",
+      "full_arch": "Full Arch",
+      "bio_title": "Biografía Profesional",
+      "bio_items": [
+        "Graduado en la <strong>Facultad de Odontología de LP.</strong>",
+        "Carrera de Especialista en <strong>Prótesis Dentobucomaxilar</strong> UBA.",
+        "Carrera de Especialista en <strong>Cirugía Maxilofacial</strong>.",
+        "Múltiples <strong>Cursos de Capacitación</strong>.",
+        "Dictante de <strong>Zygomatic Fullweek Argentina</strong>, cursos Nacionales e <strong>Internacionales</strong>.",
+        "Dictante de <strong>Full Arch Argentina</strong>."
+      ],
+      "contact": "Contacto",
+      "email": "Mail",
+      "zigomatic_title": "ZIGOMATIC",
+      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.",
+      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.",
+      "fullarch_title": "FULL ARCH",
+      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam."
+    },
+  
+    "en": {
+      "language_label": "🌍 Select a language:",
+      "name": "Jose Galiano",
+      "presentation": "Brief introduction. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
+      "bio": "Biography",
+      "zygoma": "Zygomatic",
+      "full_arch": "Full Arch",
+      "bio_title": "Professional Biography",
+      "bio_items": [
+        "Graduated from the <strong>Faculty of Dentistry of LP.</strong>",
+        "Specialist in <strong>Dentobuccal Prosthetics</strong> at UBA.",
+        "Specialist in <strong>Maxillofacial Surgery</strong>.",
+        "Multiple <strong>Training Courses</strong>.",
+        "Lecturer at <strong>Zygomatic Fullweek Argentina</strong>, national and <strong>international courses</strong>.",
+        "Lecturer at <strong>Full Arch Argentina</strong>."
+      ],
+      "contact": "Contact",
+      "email": "Email",
+      "zigomatic_title": "ZYGOMATIC",
+      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat.",
+      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
+      "fullarch_title": "FULL ARCH",
+      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
+    },
+  
+    "pt": {
+      "language_label": "🌍 Selecione um idioma:",
+      "name": "Jose Galiano",
+      "presentation": "Breve introdução. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
+      "bio": "Biografia",
+      "zygoma": "Zygomatic",
+      "full_arch": "Full Arch",
+      "bio_title": "Biografia Profissional",
+      "bio_items": [
+        "Graduado pela <strong>Faculdade de Odontologia de LP.</strong>",
+        "Especialista em <strong>Prótese Dentobucal</strong> pela UBA.",
+        "Especialista em <strong>Cirurgia Maxilofacial</strong>.",
+        "Múltiplos <strong>Cursos de Treinamento</strong>.",
+        "Palestrante no <strong>Zygomatic Fullweek Argentina</strong>, cursos nacionais e <strong>internacionais</strong>.",
+        "Palestrante no <strong>Full Arch Argentina</strong>."
+      ],
+      "contact": "Contato",
+      "email": "Email",
+      "zigomatic_title": "ZIGOMATIC",
+      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.",
+      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
+      "fullarch_title": "FULL ARCH",
+      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
+    },
+  
+    "it": {
+      "language_label": "🌍 Seleziona una lingua:",
+      "name": "Jose Galiano",
+      "presentation": "Breve introduzione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
+      "bio": "Biografia",
+      "zygoma": "Zygomatic",
+      "full_arch": "Full Arch",
+      "bio_title": "Biografia Professionale",
+      "bio_items": [
+        "Laureato presso la <strong>Facoltà di Odontoiatria di LP.</strong>",
+        "Specialista in <strong>Protesi Dentobuccale</strong> presso UBA.",
+        "Specialista in <strong>Chirurgia Maxillofacciale</strong>.",
+        "Molteplici <strong>Corsi di Formazione</strong>.",
+        "Docente al <strong>Zygomatic Fullweek Argentina</strong>, corsi nazionali e <strong>internazionali</strong>.",
+        "Docente al <strong>Full Arch Argentina</strong>."
+      ],
+      "contact": "Contatto",
+      "email": "Email",
+      "zigomatic_title": "ZIGOMATIC",
+      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.",
+      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
+      "fullarch_title": "FULL ARCH",
+      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
+    }
+  }
+  

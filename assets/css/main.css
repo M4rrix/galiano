@@ -33,6 +33,46 @@ body {
 	line-height: 1;
 }
 
+/* Estilos compactos para el selector de idioma */
+.language-container {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 1000;
+}
+
+/* Reducir el tamaño del texto de la etiqueta */
+#language-label {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: none; /* Ocultar el texto y dejar solo el icono 🌍 */
+}
+
+/* Reducir el tamaño del select */
+#language-selector {
+   /* padding: 3px;
+    font-size: 12px; */
+    border: none;
+    border-radius: 5px;
+    /* background-color: white; */
+    color: white;
+    cursor: pointer;
+}
+
+/* Quitar el borde azul de enfoque */
+#language-selector:focus {
+    outline: none;
+    border: 1px solid #fff;
+}
+
+
 ol, ul {
 	list-style: none;
 }
