@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
     
                 // 🔹 NUEVA SECCIÓN: FULL ARCH
-                document.getElementById("fullarch-title").textContent = data[lang].fullarch_title;
+                document.getElementById("fullarch-title").innerHTML = data[lang].fullarch_title;
     
                 // Actualizar la descripción de Full Arch (manejo de array de párrafos)
                 const fullArchDesc = document.getElementById("fullarch-desc");
