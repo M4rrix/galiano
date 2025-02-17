@@ -2,7 +2,7 @@
     "es": {
       "language_label": "🌍 Selecciona un idioma:",
       "name": "Jose Galiano",
-      "presentation": "Breve presentación. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam. Id rerum ipsam quo. Quas, laboriosam! Nostrum ipsum quibusdam iusto corporis asperiores.",
+      "presentation": "Odontólogo graduado de la Universidad Nacional de La Plata, especialista en Prótesis Dentobucomaxilar de la Universidad de Buenos Aires (UBA), especialista en Cirugía Maxilofacial. Dictante de Zygomatic Fullweek Argentina, Full Arch Argentina y Zygoma Prime Napoli/Brasil. Actualmente atiende en más de 6 localidades de Argentina.",
       "bio": "Biografía",
       "zygoma": "Zygomatic",
       "full_arch": "Full Arch",
@@ -17,17 +17,36 @@
       ],
       "contact": "Contacto",
       "email": "Mail",
-      "zigomatic_title": "ZIGOMATIC",
-      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.",
-      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.",
-      "fullarch_title": "FULL ARCH",
-      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam."
+      "zigomatic_title": "ZYGOMATIC",
+      "zigomatic_desc_1":"Es un placer presentar el curso de Implantología Zygomática, dirigido por el destacado experto en la materia, el Dr. José Galiano.",
+	    "zigomatic_desc_2":"En este curso, los participantes tendrán la oportunidad de adquirir conocimientos y habilidades prácticas en la técnica de implantología zygomática, una de las más innovadoras y efectivas en la restauración de la función y estética en pacientes con pérdida de hueso maxilar.",
+      "zigomatic_desc_3":"El Dr. Galiano, con su amplia experiencia y reconocimiento internacional, compartirá sus conocimientos y técnicas para garantizar que los participantes estén equipados con las herramientas necesarias para abordar casos complejos y lograr resultados óptimos.",
+      "fullarch_title": "Residencia en Cirugía Maxilofacial",
+      "fullarch_desc": [
+      "Full Arch es un programa de formación intensiva y personalizada, diseñado para la capacitación de cirujanos maxilofaciales interesados en dominar la técnica Full Arch.",
+      "El curso combina un <strong>workshop teórico</strong> y un <strong>hands-on práctico</strong>, permitiendo a los participantes desarrollar destrezas en modelos 3D de pacientes reales.",
+      "El equipo docente está conformado por profesionales de renombre internacional:",
+      "<strong>Dr. José Galiano 🇦🇷</strong><br><strong>Dr. Xiaowen Zhang 🇺🇸</strong><br><strong>Dr. Augusto Druck 🇦🇷</strong><br><strong>Dr. Kevin Kim 🇺🇸</strong>",
+      "La metodología del curso se desarrolla a lo largo de <strong>4 días</strong>, con un total de <strong>36 horas</strong> de formación teórico-práctica, abordando las últimas técnicas en rehabilitación oral.",
+      "Los principales temas del programa incluyen:"
+    ],
+      "fullarch_topics":
+      [
+            "Manejo de maxilares atróficos con implantes zigomáticos y pterigoideos.",
+						"Técnicas de rehabilitación con implantes: All-on-6 y All-on-4.",
+						"Cirugía guiada desacoplable (All-on-X).",
+						"Cirugía All-on-X FP1.",
+						"Carga inmediata analógica y digital.",
+						"Fotogrametría aplicada a rehabilitación oral.",
+						"Diseño digital en laboratorio: uso de Exocad y maquillaje de provisionales."
+      ]
+     
     },
   
     "en": {
       "language_label": "🌍 Select a language:",
       "name": "Jose Galiano",
-      "presentation": "Brief introduction. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
+      "presentation": "Dentist graduated from the National University of La Plata, specialist in Dentobuccal Prosthetics at the University of Buenos Aires (UBA), and specialist in Maxillofacial Surgery. Lecturer at Zygomatic Fullweek Argentina, Full Arch Argentina, and Zygoma Prime Napoli/Brazil. Currently practices in more than 6 locations across Argentina.",
       "bio": "Biography",
       "zygoma": "Zygomatic",
       "full_arch": "Full Arch",
@@ -43,60 +62,116 @@
       "contact": "Contact",
       "email": "Email",
       "zigomatic_title": "ZYGOMATIC",
-      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat.",
-      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
-      "fullarch_title": "FULL ARCH",
-      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
+      "zigomatic_desc_1": "It is a pleasure to introduce the Zygomatic Implantology course, led by the distinguished expert in the field, Dr. José Galiano.",
+      "zigomatic_desc_2": "In this course, participants will have the opportunity to acquire knowledge and practical skills in zygomatic implantology, one of the most innovative and effective techniques for restoring function and aesthetics in patients with maxillary bone loss.",
+      "zigomatic_desc_3": "Dr. Galiano, with his extensive experience and international recognition, will share his knowledge and techniques to ensure that participants are equipped with the necessary tools to tackle complex cases and achieve optimal results.",
+      "fullarch_title": "Maxillofacial Surgery Residency",
+      "fullarch_desc": [
+        "Full Arch is an intensive and personalized training program designed for maxillofacial surgeons who want to master the Full Arch technique.",
+        "The course combines a <strong>theoretical workshop</strong> and a <strong>hands-on practical</strong>, allowing participants to develop skills using 3D models of real patients.",
+        "The faculty is made up of internationally renowned professionals:",
+        "<strong>Dr. José Galiano 🇦🇷</strong><br><strong>Dr. Xiaowen Zhang 🇺🇸</strong><br><strong>Dr. Augusto Druck 🇦🇷</strong><br><strong>Dr. Kevin Kim 🇺🇸</strong>",
+        "The course methodology is developed over <strong>4 days</strong>, totaling <strong>36 hours</strong> of theoretical and practical training, covering the latest techniques in oral rehabilitation.",
+        "The main topics covered in the program include:"
+      ],
+      "fullarch_topics": [
+        "Management of atrophic maxillae with zygomatic and pterygoid implants.",
+        "Implant rehabilitation techniques: All-on-6 and All-on-4.",
+        "Detachable guided surgery (All-on-X).",
+        "All-on-X FP1 surgery.",
+        "Analog and digital immediate loading.",
+        "Photogrammetry applied to oral rehabilitation.",
+        "Digital design in laboratory: use of Exocad and provisional makeup."
+      ]
     },
   
     "pt": {
-      "language_label": "🌍 Selecione um idioma:",
-      "name": "Jose Galiano",
-      "presentation": "Breve introdução. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
-      "bio": "Biografia",
-      "zygoma": "Zygomatic",
-      "full_arch": "Full Arch",
-      "bio_title": "Biografia Profissional",
-      "bio_items": [
-        "Graduado pela <strong>Faculdade de Odontologia de LP.</strong>",
-        "Especialista em <strong>Prótese Dentobucal</strong> pela UBA.",
-        "Especialista em <strong>Cirurgia Maxilofacial</strong>.",
-        "Múltiplos <strong>Cursos de Treinamento</strong>.",
-        "Palestrante no <strong>Zygomatic Fullweek Argentina</strong>, cursos nacionais e <strong>internacionais</strong>.",
-        "Palestrante no <strong>Full Arch Argentina</strong>."
-      ],
-      "contact": "Contato",
-      "email": "Email",
-      "zigomatic_title": "ZIGOMATIC",
-      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.",
-      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
-      "fullarch_title": "FULL ARCH",
-      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
-    },
+    "language_label": "🌍 Selecione um idioma:",
+    "name": "Jose Galiano",
+    "presentation": "Dentista graduado pela Universidade Nacional de La Plata, especialista em Prótese Dentobucal pela Universidade de Buenos Aires (UBA) e especialista em Cirurgia Maxilofacial. Palestrante no Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasil. Atualmente atende em mais de 6 localidades na Argentina.",
+    "bio": "Biografia",
+    "zygoma": "Zygomatic",
+    "full_arch": "Full Arch",
+    "bio_title": "Biografia Profissional",
+    "bio_items": [
+      "Graduado na <strong>Faculdade de Odontologia de LP.</strong>",
+      "Especialista em <strong>Prótese Dentobucal</strong> pela UBA.",
+      "Especialista em <strong>Cirurgia Maxilofacial</strong>.",
+      "Múltiplos <strong>Cursos de Capacitação</strong>.",
+      "Palestrante no <strong>Zygomatic Fullweek Argentina</strong>, cursos nacionais e <strong>internacionais</strong>.",
+      "Palestrante no <strong>Full Arch Argentina</strong>."
+    ],
+    "contact": "Contato",
+    "email": "Email",
+    "zigomatic_title": "ZYGOMATIC",
+    "zigomatic_desc_1": "É um prazer apresentar o curso de Implantologia Zigomática, ministrado pelo renomado especialista na área, Dr. José Galiano.",
+    "zigomatic_desc_2": "Neste curso, os participantes terão a oportunidade de adquirir conhecimentos e habilidades práticas na técnica de implantologia zigomática, uma das mais inovadoras e eficazes para restaurar a função e a estética em pacientes com perda óssea maxilar.",
+    "zigomatic_desc_3": "O Dr. Galiano, com sua vasta experiência e reconhecimento internacional, compartilhará seus conhecimentos e técnicas para garantir que os participantes estejam preparados para lidar com casos complexos e alcançar resultados ideais.",
+    "fullarch_title": "Residência em Cirurgia Maxilofacial",
+    "fullarch_desc": [
+      "Full Arch é um programa de treinamento intensivo e personalizado, projetado para capacitar cirurgiões maxilofaciais interessados na técnica Full Arch.",
+      "O curso combina um <strong>workshop teórico</strong> e um <strong>hands-on prático</strong>, permitindo que os participantes desenvolvam habilidades em modelos 3D de pacientes reais.",
+      "O corpo docente é composto por profissionais de renome internacional:",
+      "<strong>Dr. José Galiano 🇦🇷</strong><br><strong>Dr. Xiaowen Zhang 🇺🇸</strong><br><strong>Dr. Augusto Druck 🇦🇷</strong><br><strong>Dr. Kevin Kim 🇺🇸</strong>",
+      "A metodologia do curso é desenvolvida ao longo de <strong>4 dias</strong>, totalizando <strong>36 horas</strong> de treinamento teórico e prático, abordando as mais recentes técnicas de reabilitação oral.",
+      "Os principais temas abordados no programa incluem:"
+    ],
+    "fullarch_topics": [
+      "Manejo de maxilares atróficos com implantes zigomáticos e pterigoideos.",
+      "Técnicas de reabilitação com implantes: All-on-6 e All-on-4.",
+      "Cirurgia guiada desacoplável (All-on-X).",
+      "Cirurgia All-on-X FP1.",
+      "Carga imediata analógica e digital.",
+      "Fotogrametria aplicada à reabilitação oral.",
+      "Design digital em laboratório: uso de Exocad e maquiagem provisória."
+    ]
+  },
+
   
     "it": {
-      "language_label": "🌍 Seleziona una lingua:",
-      "name": "Jose Galiano",
-      "presentation": "Breve introduzione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quasi repudiandae a amet ut esse placeat nulla laboriosam.",
-      "bio": "Biografia",
-      "zygoma": "Zygomatic",
-      "full_arch": "Full Arch",
-      "bio_title": "Biografia Professionale",
-      "bio_items": [
-        "Laureato presso la <strong>Facoltà di Odontoiatria di LP.</strong>",
-        "Specialista in <strong>Protesi Dentobuccale</strong> presso UBA.",
-        "Specialista in <strong>Chirurgia Maxillofacciale</strong>.",
-        "Molteplici <strong>Corsi di Formazione</strong>.",
-        "Docente al <strong>Zygomatic Fullweek Argentina</strong>, corsi nazionali e <strong>internazionali</strong>.",
-        "Docente al <strong>Full Arch Argentina</strong>."
-      ],
-      "contact": "Contatto",
-      "email": "Email",
-      "zigomatic_title": "ZIGOMATIC",
-      "zigomatic_desc_1": "Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.",
-      "zigomatic_desc_2": "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.",
-      "fullarch_title": "FULL ARCH",
-      "fullarch_desc": "Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac."
-    }
+    "language_label": "🌍 Seleziona una lingua:",
+    "name": "Jose Galiano",
+    "presentation": "Odontoiatra laureato presso l'Università Nazionale di La Plata, specialista in Protesi Dentobuccale presso l'Università di Buenos Aires (UBA) e specialista in Chirurgia Maxillo-Facciale. Docente presso Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasile. Attualmente esercita in più di 6 località in Argentina.",
+    "bio": "Biografia",
+    "zygoma": "Zygomatic",
+    "full_arch": "Full Arch",
+    "bio_title": "Biografia Professionale",
+    "bio_items": [
+      "Laureato presso la <strong>Facoltà di Odontoiatria di LP.</strong>",
+      "Specialista in <strong>Protesi Dentobuccale</strong> presso UBA.",
+      "Specialista in <strong>Chirurgia Maxillo-Facciale</strong>.",
+      "Molteplici <strong>Corsi di Formazione</strong>.",
+      "Docente presso <strong>Zygomatic Fullweek Argentina</strong>, corsi nazionali e <strong>internazionali</strong>.",
+      "Docente presso <strong>Full Arch Argentina</strong>."
+    ],
+    "contact": "Contatto",
+    "email": "Email",
+    "zigomatic_title": "ZYGOMATIC",
+    "zigomatic_desc_1": "È un piacere presentare il corso di Implantologia Zigomatica, tenuto dal rinomato esperto nel settore, il Dr. José Galiano.",
+    "zigomatic_desc_2": "In questo corso, i partecipanti avranno l'opportunità di acquisire conoscenze e competenze pratiche nella tecnica di implantologia zigomatica, una delle più innovative ed efficaci per il ripristino della funzione e dell'estetica nei pazienti con perdita ossea mascellare.",
+    "zigomatic_desc_3": "Il Dr. Galiano, con la sua vasta esperienza e riconoscimento internazionale, condividerà le sue conoscenze e tecniche per garantire che i partecipanti siano dotati degli strumenti necessari per affrontare casi complessi e ottenere risultati ottimali.",
+    "fullarch_title": "Residenza in Chirurgia Maxillo-Facciale",
+    "fullarch_desc": [
+      "Full Arch è un programma di formazione intensivo e personalizzato, progettato per la preparazione di chirurghi maxillo-facciali interessati a padroneggiare la tecnica Full Arch.",
+      "Il corso combina un <strong>workshop teorico</strong> e un <strong>hands-on pratico</strong>, permettendo ai partecipanti di sviluppare abilità utilizzando modelli 3D di pazienti reali.",
+      "Il corpo docente è composto da professionisti di fama internazionale:",
+      "<strong>Dr. José Galiano 🇦🇷</strong><br><strong>Dr. Xiaowen Zhang 🇺🇸</strong><br><strong>Dr. Augusto Druck 🇦🇷</strong><br><strong>Dr. Kevin Kim 🇺🇸</strong>",
+      "La metodologia del corso si sviluppa nell'arco di <strong>4 giorni</strong>, per un totale di <strong>36 ore</strong> di formazione teorico-pratica, affrontando le più recenti tecniche di riabilitazione orale.",
+      "I principali argomenti trattati nel programma includono:"
+    ],
+    "fullarch_topics": [
+      "Gestione delle mascelle atrofiche con impianti zigomatici e pterigoidei.",
+      "Tecniche di riabilitazione con impianti: All-on-6 e All-on-4.",
+      "Chirurgia guidata removibile (All-on-X).",
+      "Chirurgia All-on-X FP1.",
+      "Carico immediato analogico e digitale.",
+      "Fotogrammetria applicata alla riabilitazione orale.",
+      "Progettazione digitale in laboratorio: utilizzo di Exocad e maquillage per provvisori."
+    ]
+  }
+
+
+
+    
   }
   

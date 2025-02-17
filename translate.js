@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("zygoma-link").textContent = data[lang].zygoma;
                 document.getElementById("fullarch-link").textContent = data[lang].full_arch;
                 document.getElementById("bio-title").textContent = data[lang].bio_title;
-                
+    
                 // Actualizar la lista de la biografía
                 const bioList = document.getElementById("bio-list");
                 bioList.innerHTML = ""; // Limpiar lista actual
@@ -32,17 +32,37 @@ document.addEventListener("DOMContentLoaded", () => {
                     li.innerHTML = item;
                     bioList.appendChild(li);
                 });
-
+    
+                // 🔹 NUEVA SECCIÓN: FULL ARCH
+                document.getElementById("fullarch-title").textContent = data[lang].fullarch_title;
+    
+                // Actualizar la descripción de Full Arch (manejo de array de párrafos)
+                const fullArchDesc = document.getElementById("fullarch-desc");
+                fullArchDesc.innerHTML = ""; // Limpiar contenido anterior
+                data[lang].fullarch_desc.forEach(paragraph => {
+                    const p = document.createElement("p");
+                    p.innerHTML = paragraph; // Permitir etiquetas HTML como <strong> y emojis
+                    fullArchDesc.appendChild(p);
+                });
+    
+                // Actualizar lista de temas de Full Arch
+                const fullArchTopics = document.getElementById("fullarch-topics");
+                fullArchTopics.innerHTML = ""; // Limpiar la lista actual
+                data[lang].fullarch_topics.forEach(topic => {
+                    const li = document.createElement("li");
+                    li.textContent = topic;
+                    fullArchTopics.appendChild(li);
+                });
+    
                 document.getElementById("contact-label").textContent = data[lang].contact;
                 document.getElementById("email-label").textContent = data[lang].email;
                 document.getElementById("zigomatic-title").textContent = data[lang].zigomatic_title;
                 document.getElementById("zigomatic-desc-1").textContent = data[lang].zigomatic_desc_1;
                 document.getElementById("zigomatic-desc-2").textContent = data[lang].zigomatic_desc_2;
+                document.getElementById("zigomatic-desc-3").textContent = data[lang].zigomatic_desc_3; 
                 document.getElementById("contact-label-2").textContent = data[lang].contact;
-                document.getElementById("fullarch-title").textContent = data[lang].fullarch_title;
-                document.getElementById("fullarch-desc").textContent = data[lang].fullarch_desc;
                 document.getElementById("contact-label-3").textContent = data[lang].contact;
-
+    
                 document.title = data[lang].name; // Cambiar título de la pestaña
             })
             .catch(error => console.error("Error cargando las traducciones:", error));
