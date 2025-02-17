@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const languageSelector = document.getElementById("language-selector");
 
@@ -12,61 +14,101 @@ document.addEventListener("DOMContentLoaded", () => {
         changeLanguage(selectedLang);
     });
 
+
     function changeLanguage(lang) {
         fetch("translate.json")
             .then(response => response.json())
             .then(data => {
-                document.getElementById("language-label").textContent = data[lang].language_label;
-                document.getElementById("name").textContent = data[lang].name;
-                document.getElementById("presentation").textContent = data[lang].presentation;
-                document.getElementById("bio-link").textContent = data[lang].bio;
-                document.getElementById("zygoma-link").textContent = data[lang].zygoma;
-                document.getElementById("fullarch-link").textContent = data[lang].full_arch;
-                document.getElementById("bio-title").textContent = data[lang].bio_title;
+                if (!data[lang]) {
+                    console.error(`⚠️ No hay datos para el idioma: ${lang}`);
+                    return;
+                }
     
-                // Actualizar la lista de la biografía
+                // Verificar y actualizar cada elemento solo si existe en el DOM
+                const updateElement = (id, value) => {
+                    const el = document.getElementById(id);
+                    if (el) el.textContent = value || "";
+                    else console.warn(`⚠️ No se encontró el elemento: ${id}`);
+                };
+    
+                updateElement("language-label", data[lang].language_label);
+                updateElement("name", data[lang].name);
+                updateElement("presentation", data[lang].presentation);
+                updateElement("bio-link", data[lang].bio);
+                updateElement("zygoma-link", data[lang].zygoma);
+                updateElement("fullarch-link", data[lang].full_arch);
+                updateElement("bio-title", data[lang].bio_title);
+                updateElement("fullarch-title", data[lang].fullarch_title);
+                updateElement("contact-label", data[lang].contact);
+                updateElement("email-label", data[lang].email);
+                updateElement("contact-label-2", data[lang].contact);
+                updateElement("contact-label-3", data[lang].contact);
+                updateElement("zigomatic-title", data[lang].zigomatic_title);
+                updateElement("zigomatic-desc-1", data[lang].zigomatic_desc_1);
+                updateElement("zigomatic-desc-2", data[lang].zigomatic_desc_2);
+                updateElement("zigomatic-desc-3", data[lang].zigomatic_desc_3);
+                
+                document.title = data[lang].name;
+    
+                // 🔹 Actualizar la lista de la biografía
                 const bioList = document.getElementById("bio-list");
-                bioList.innerHTML = ""; // Limpiar lista actual
-                data[lang].bio_items.forEach(item => {
-                    const li = document.createElement("li");
-                    li.innerHTML = item;
-                    bioList.appendChild(li);
-                });
+                if (bioList) {
+                    bioList.innerHTML = "";
+                    data[lang].bio_items.forEach(item => {
+                        const li = document.createElement("li");
+                        li.innerHTML = item;
+                        bioList.appendChild(li);
+                    });
+                }
     
-                // 🔹 NUEVA SECCIÓN: FULL ARCH
-                document.getElementById("fullarch-title").innerHTML = data[lang].fullarch_title;
+                // 🔹 Actualizar la lista de temas de Zygomatic
+                const zigomaticTopicsList = document.getElementById("zigomatic-topics");
+                if (zigomaticTopicsList) {
+                    zigomaticTopicsList.innerHTML = "";
+                    if (Array.isArray(data[lang].zigomatic_topics)) {
+                        data[lang].zigomatic_topics.forEach(topic => {
+                            const li = document.createElement("li");
+                            li.textContent = topic;
+                            zigomaticTopicsList.appendChild(li);
+                        });
+                    } else {
+                        console.warn(`⚠️ No hay temas de Zygomatic en ${lang}`);
+                    }
+                }
     
-                // Actualizar la descripción de Full Arch (manejo de array de párrafos)
+                // 🔹 Actualizar la descripción de Full Arch (manejo de array de párrafos)
                 const fullArchDesc = document.getElementById("fullarch-desc");
-                fullArchDesc.innerHTML = ""; // Limpiar contenido anterior
-                data[lang].fullarch_desc.forEach(paragraph => {
-                    const p = document.createElement("p");
-                    p.innerHTML = paragraph; // Permitir etiquetas HTML como <strong> y emojis
-                    fullArchDesc.appendChild(p);
-                });
+                if (fullArchDesc) {
+                    fullArchDesc.innerHTML = "";
+                    data[lang].fullarch_desc.forEach(paragraph => {
+                        const p = document.createElement("p");
+                        p.innerHTML = paragraph;
+                        fullArchDesc.appendChild(p);
+                    });
+                }
     
-                // Actualizar lista de temas de Full Arch
+                // 🔹 Actualizar lista de temas de Full Arch
                 const fullArchTopics = document.getElementById("fullarch-topics");
-                fullArchTopics.innerHTML = ""; // Limpiar la lista actual
-                data[lang].fullarch_topics.forEach(topic => {
-                    const li = document.createElement("li");
-                    li.textContent = topic;
-                    fullArchTopics.appendChild(li);
-                });
-    
-                document.getElementById("contact-label").textContent = data[lang].contact;
-                document.getElementById("email-label").textContent = data[lang].email;
-                document.getElementById("zigomatic-title").textContent = data[lang].zigomatic_title;
-                document.getElementById("zigomatic-desc-1").textContent = data[lang].zigomatic_desc_1;
-                document.getElementById("zigomatic-desc-2").textContent = data[lang].zigomatic_desc_2;
-                document.getElementById("zigomatic-desc-3").textContent = data[lang].zigomatic_desc_3; 
-                document.getElementById("contact-label-2").textContent = data[lang].contact;
-                document.getElementById("contact-label-3").textContent = data[lang].contact;
-    
-                document.title = data[lang].name; // Cambiar título de la pestaña
+                if (fullArchTopics) {
+                    fullArchTopics.innerHTML = "";
+                    data[lang].fullarch_topics.forEach(topic => {
+                        const li = document.createElement("li");
+                        li.textContent = topic;
+                        fullArchTopics.appendChild(li);
+                    });
+                }
             })
             .catch(error => console.error("Error cargando las traducciones:", error));
+    
+        // Verificar si los elementos están presentes en el DOM después de la ejecución
+        console.log("🔍 Verificando elementos:");
+        console.log("Zygomatic Title:", document.getElementById("zigomatic-title"));
+        console.log("Zygomatic Desc 1:", document.getElementById("zigomatic-desc-1"));
+        console.log("Zygomatic Desc 2:", document.getElementById("zigomatic-desc-2"));
+        console.log("Zygomatic Desc 3:", document.getElementById("zigomatic-desc-3"));
+        console.log("Zygomatic Topics:", document.getElementById("zigomatic-topics"));
     }
+    
 
     const languageContainer = document.querySelector(".language-container");
     const mainSections = document.querySelectorAll("#main article");
@@ -82,3 +124,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     toggleLanguageSelector(); // Ejecutar en carga inicial
 });
+
