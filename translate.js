@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateElement("zygoma-link", data[lang].zygoma);
                 updateElement("fullarch-link", data[lang].full_arch);
                 updateElement("bio-title", data[lang].bio_title);
-                updateElement("fullarch-title", data[lang].fullarch_title);
                 updateElement("contact-label", data[lang].contact);
                 updateElement("email-label", data[lang].email);
                 updateElement("contact-label-2", data[lang].contact);
@@ -49,6 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateElement("zigomatic-desc-3", data[lang].zigomatic_desc_3);
                 
                 document.title = data[lang].name;
+
+                 // 🔹 Permitir etiquetas HTML en fullarch_title
+                const fullArchTitle = document.getElementById("fullarch-title");
+                if (fullArchTitle) fullArchTitle.innerHTML = data[lang].fullarch_title;
     
                 // 🔹 Actualizar la lista de la biografía
                 const bioList = document.getElementById("bio-list");
