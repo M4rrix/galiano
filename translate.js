@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateElement("zigomatic-desc-1", data[lang].zigomatic_desc_1);
                 updateElement("zigomatic-desc-2", data[lang].zigomatic_desc_2);
                 updateElement("zigomatic-desc-3", data[lang].zigomatic_desc_3);
+                updateElement("zigomatic-desc-4", data[lang].zigomatic_desc_4);
                 
                 document.title = data[lang].name;
 
