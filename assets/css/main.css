@@ -263,7 +263,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75rem;
+			/*font-size: 1.75rem;*/
 			line-height: 1.4;
 		}
 
@@ -344,6 +344,30 @@ input, select, textarea {
 	.contact-info a:hover {
 		text-decoration: underline;
 	}
+
+/*Clinicas*/
+	
+#presentation {
+    background: rgba(0, 0, 0, 0.5); /* 🔹 Fondo negro con 50% de opacidad */
+    padding: 10px 15px; /* 🔹 Espaciado interno */
+    border-radius: 8px; /* 🔹 Bordes redondeados */
+    color: #ffffff; /* 🔹 Texto blanco */
+    display: inline-block; /* 🔹 Ajusta el tamaño al contenido */
+    text-align: center; /* 🔹 Centrar texto */
+	font: inherit;
+}
+
+/* 🔹 Ajusta los números de WhatsApp para que sean más visibles */
+#header .content p a {
+    color: #25D366; /* Color oficial de WhatsApp */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header .content p a:hover {
+    text-decoration: underline;
+}
+
 
 /* Form */
 

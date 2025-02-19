@@ -25,15 +25,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
     
                 // Verificar y actualizar cada elemento solo si existe en el DOM
-                const updateElement = (id, value) => {
+                const updateElement = (id, value, isHTML = false) => {
                     const el = document.getElementById(id);
-                    if (el) el.textContent = value || "";
-                    else console.warn(`⚠️ No se encontró el elemento: ${id}`);
+                    if (el) {
+                        if (isHTML) {
+                            el.innerHTML = value || "";
+                        } else {
+                            el.textContent = value || "";
+                        }
+                    } else {
+                        console.warn(`⚠️ No se encontró el elemento: ${id}`);
+                    }
                 };
     
                 updateElement("language-label", data[lang].language_label);
                 updateElement("name", data[lang].name);
-                updateElement("presentation", data[lang].presentation);
+                updateElement("presentation", data[lang].presentation, true); // 🔹 Ahora admite HTML
                 updateElement("bio-link", data[lang].bio);
                 updateElement("zygoma-link", data[lang].zygoma);
                 updateElement("fullarch-link", data[lang].full_arch);
