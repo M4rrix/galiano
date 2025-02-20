@@ -4,9 +4,9 @@
         "name": "José Galiano",
         "presentation": "Odontólogo graduado de la Universidad Nacional de La Plata, especialista en Prótesis Dentobucomaxilar de la Universidad de Buenos Aires (UBA), especialista en Cirugía Maxilofacial. Dictante de Zygomatic Fullweek Argentina, Full Arch Argentina y Zygoma Prime Napoli/Brasil. <br> Actualmente atiende en más de 6 localidades de Argentina: <br> ",
         "clinics_list": [
-        "<a href='https://www.google.com/maps/place/CEO+Viedma/@-40.805565,-63.0063787,17z/data=!3m1!4b1!4m6!3m5!1s0x95f6a2a81ba43161:0xd8c0711dd21064d9!8m2!3d-40.8055691!4d-63.0038038!16s%2Fg%2F11dx8nc5j9?entry=ttu&g_ep=EgoyMDI1MDIxNy4wIKXMDSoASAFQAw%3D%3D' target='_blank'><strong>CEO Viedma</strong></a> – <a href='https://wa.me/542920682600' target='_blank'>+54 2920-682600</a>",
+         "<strong>CEO Viedma</strong> – Ministro Jofré 966 <a href='https://wa.me/542920682600' target='_blank'>+54 2920-682600</a>",
          "<strong>CEO Buenos Aires</strong> – Olazábal 1515 <a href='https://wa.me/5491136043111' target='_blank'>+54 911 36043111</a>",
-         "<strong>Carmen de Patagones</strong> – Oliver 9 <a href='https://wa.me/542920547406' target='_blank'>+54 2920-547406</a>",
+         "<strong>CEO Carmen de Patagones</strong> – Oliver 9 <a href='https://wa.me/542920547406' target='_blank'>+54 2920-547406</a>",
          "<strong>CEO Cipolletti</strong> – Lisandro de La Torre 363 <a href='https://wa.me/5492994577737' target='_blank'>+54 92994-577737</a>",
          "<strong>CEO San Antonio</strong> – Belgrano y Rivadavia <a href='https://wa.me/542920608101' target='_blank'>+54 2920-608101</a> "
         ],
@@ -65,7 +65,14 @@
       "en": {
         "language_label": "🌍 Select a language:",
         "name": "José Galiano",
-        "presentation": "Dentist graduated from the National University of La Plata, specialist in Dentobuccal Prosthetics at the University of Buenos Aires (UBA), and specialist in Maxillofacial Surgery. Lecturer at Zygomatic Fullweek Argentina, Full Arch Argentina, and Zygoma Prime Napoli/Brazil. Currently practices in more than 6 locations across Argentina.",
+        "presentation": "Dentist graduated from the National University of La Plata, specialist in Dentobuccal Prosthetics at the University of Buenos Aires (UBA), and specialist in Maxillofacial Surgery. Lecturer at Zygomatic Fullweek Argentina, Full Arch Argentina, and Zygoma Prime Napoli/Brazil. <br> Currently practices in more than 6 locations across Argentina.",
+        "clinics_list": [
+          "<strong>CEO Viedma</strong> – Ministro Jofré 966 <a href='https://wa.me/542920682600' target='_blank'>+54 2920-682600</a>",
+          "<strong>CEO Buenos Aires</strong> – Olazábal 1515 <a href='https://wa.me/5491136043111' target='_blank'>+54 911 36043111</a>",
+          "<strong>CEO Carmen de Patagones</strong> – Oliver 9 <a href='https://wa.me/542920547406' target='_blank'>+54 2920-547406</a>",
+          "<strong>CEO Cipolletti</strong> – Lisandro de La Torre 363 <a href='https://wa.me/5492994577737' target='_blank'>+54 92994-577737</a>",
+          "<strong>CEO San Antonio</strong> – Belgrano y Rivadavia <a href='https://wa.me/542920608101' target='_blank'>+54 2920-608101</a> "
+         ],
         "bio": "Biography",
         "zygoma": "Zygomatic",
         "full_arch": "Full Arch",
@@ -122,7 +129,14 @@
       "pt": {
       "language_label": "🌍 Selecione um idioma:",
       "name": "José Galiano",
-      "presentation": "Dentista graduado pela Universidade Nacional de La Plata, especialista em Prótese Dentobucal pela Universidade de Buenos Aires (UBA) e especialista em Cirurgia Maxilofacial. Palestrante no Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasil. Atualmente atende em mais de 6 localidades na Argentina.",
+      "presentation": "Dentista graduado pela Universidade Nacional de La Plata, especialista em Prótese Dentobucal pela Universidade de Buenos Aires (UBA) e especialista em Cirurgia Maxilofacial. Palestrante no Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasil. <br> Atualmente atende em mais de 6 localidades na Argentina.",
+      "clinics_list": [
+        "<strong>CEO Viedma</strong> – Ministro Jofré 966 <a href='https://wa.me/542920682600' target='_blank'>+54 2920-682600</a>",
+        "<strong>CEO Buenos Aires</strong> – Olazábal 1515 <a href='https://wa.me/5491136043111' target='_blank'>+54 911 36043111</a>",
+        "<strong>CEO Carmen de Patagones</strong> – Oliver 9 <a href='https://wa.me/542920547406' target='_blank'>+54 2920-547406</a>",
+        "<strong>CEO Cipolletti</strong> – Lisandro de La Torre 363 <a href='https://wa.me/5492994577737' target='_blank'>+54 92994-577737</a>",
+        "<strong>CEO San Antonio</strong> – Belgrano y Rivadavia <a href='https://wa.me/542920608101' target='_blank'>+54 2920-608101</a> "
+       ],
       "bio": "Biografia",
       "zygoma": "Zygomatic",
       "full_arch": "Full Arch",
@@ -179,7 +193,14 @@
       "it": {
       "language_label": "🌍 Seleziona una lingua:",
       "name": "José Galiano",
-      "presentation": "Odontoiatra laureato presso l'Università Nazionale di La Plata, specialista in Protesi Dentobuccale presso l'Università di Buenos Aires (UBA) e specialista in Chirurgia Maxillo-Facciale. Docente presso Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasile. Attualmente esercita in più di 6 località in Argentina.",
+      "presentation": "Odontoiatra laureato presso l'Università Nazionale di La Plata, specialista in Protesi Dentobuccale presso l'Università di Buenos Aires (UBA) e specialista in Chirurgia Maxillo-Facciale. Docente presso Zygomatic Fullweek Argentina, Full Arch Argentina e Zygoma Prime Napoli/Brasile. <br> Attualmente esercita in più di 6 località in Argentina.",
+      "clinics_list": [
+        "<strong>CEO Viedma</strong> – Ministro Jofré 966 <a href='https://wa.me/542920682600' target='_blank'>+54 2920-682600</a>",
+        "<strong>CEO Buenos Aires</strong> – Olazábal 1515 <a href='https://wa.me/5491136043111' target='_blank'>+54 911 36043111</a>",
+        "<strong>CEO Carmen de Patagones</strong> – Oliver 9 <a href='https://wa.me/542920547406' target='_blank'>+54 2920-547406</a>",
+        "<strong>CEO Cipolletti</strong> – Lisandro de La Torre 363 <a href='https://wa.me/5492994577737' target='_blank'>+54 92994-577737</a>",
+        "<strong>CEO San Antonio</strong> – Belgrano y Rivadavia <a href='https://wa.me/542920608101' target='_blank'>+54 2920-608101</a> "
+       ],
       "bio": "Biografia",
       "zygoma": "Zygomatic",
       "full_arch": "Full Arch",
