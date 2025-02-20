@@ -57,6 +57,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 document.title = data[lang].name;
 
+                const clinicsList = document.getElementById("clinics-list");
+                    if (clinicsList) {
+                        clinicsList.innerHTML = ""; // Limpiar lista antes de agregar elementos nuevos
+
+                        if (Array.isArray(data[lang].clinics_list)) {
+                            data[lang].clinics_list.forEach(clinic => {
+                                let li = document.createElement("li");
+                                li.innerHTML = clinic; // Permitir HTML dentro de los elementos
+                                clinicsList.appendChild(li);
+                            });
+                        } else {
+                            console.warn(`⚠️ No se encontró 'clinics_list' en el JSON para el idioma ${lang}`);
+                        }
+                    }
                  // 🔹 Permitir etiquetas HTML en fullarch_title
                 const fullArchTitle = document.getElementById("fullarch-title");
                 if (fullArchTitle) fullArchTitle.innerHTML = data[lang].fullarch_title;

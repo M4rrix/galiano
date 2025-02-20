@@ -345,7 +345,7 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
-/*Clinicas*/
+/*Presentacion y bClinicas*/
 	
 #presentation {
     background: rgba(0, 0, 0, 0.5); /* 🔹 Fondo negro con 50% de opacidad */
@@ -368,6 +368,15 @@ input, select, textarea {
     text-decoration: underline;
 }
 
+#clinics-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espacio a la izquierda */
+}
+
+#clinics-list li {
+    margin-bottom: 5px; /* Espacio entre cada elemento */
+}
+/*terminan las clinicas*/
 
 /* Form */
 
